@@ -131,6 +131,12 @@ textarea {
      width: 100%;
    }
 
+   h5 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0;
+   }
+
    p {
      font-size: 1em;
      line-height: 1.5;
@@ -167,7 +173,7 @@ textarea {
     background: url(../img/green-background.png);
     background-size: cover;
     background-position: 100% 80%;
-    min-height: 400px;
+    min-height: 300px;
     padding: 15px 0;
    }
 
@@ -287,6 +293,31 @@ textarea {
     .mobile-nav ul li {
       font-size: 1.5em;
       color: #3d405b;
+    }
+
+    .tagline {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tagline h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 100;
+      font-size: 3.5em;
+    }
+
+    .tagline h2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 100;
+      font-size: 2.5em;
+      margin-top: 50px;
     }
 
     .work-nav {
@@ -534,15 +565,40 @@ textarea {
       width: 100%;
     }
 
+    .work h5 {
+      text-align: center;
+    }
+
+    .work h5 a {
+      text-decoration: underline;
+    }
+
+    .work article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      margin: 50px;
+    }
+
+    .work article div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+    }
+
     .work figure {
       margin: 20px 0;
       padding: 0;
       width: 100%;
+      max-width: 700px;
     }
 
     .work .tall {
       max-width: 350px;
     }
+
 
     
 
@@ -683,6 +739,11 @@ textarea {
     width: 40%;
   }
 
+
+  .tagline {
+    margin: 50px 0;
+  }
+
   .mobile-nav {
     display: none;
   }
@@ -692,6 +753,21 @@ textarea {
   .work {
     margin-top: 70px;
   }
+
+  .work .other-projects {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-flow: row wrap;
+  }
+
+  .work .other-projects-examples {
+    width: 50%;
+    margin: 50px 0;
+  }
+
+
+
   
 
 }
@@ -716,6 +792,7 @@ textarea {
     width: 49%;
   }
 
+
   /* Features */
   .features article {
     margin: 0;
@@ -736,7 +813,7 @@ textarea {
 
 
   /* About Page */
-  .about-items {
+  .about .about-items {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -745,7 +822,7 @@ textarea {
 
   .about-items article {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
     width: 49%;
