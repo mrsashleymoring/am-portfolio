@@ -172,7 +172,7 @@
      }
   
      header {
-      background-color: #00a887;
+      background-color: #e07a5f;
       background-size: cover;
       background-position: 100% 80%;
       padding: 15px 0;
@@ -308,7 +308,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(to top, rgba(0,168,135,0), rgba(0,168,135,1));
+        background-color: #e0725f;
+        /* background-image: linear-gradient(to top, rgba(0,168,135,0), rgba(0,168,135,1)); */
+        background-image: url(../img/desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 500px;
       }
   
       .tagline h1{
@@ -450,6 +456,11 @@
         align-items: center;
         flex-flow: row wrap;
         background-color: #00a887;
+        background-image: url(../img/contact2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
       }
   
       .contact-me .content-wrapper {
